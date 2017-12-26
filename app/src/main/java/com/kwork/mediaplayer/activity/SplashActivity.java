@@ -34,7 +34,7 @@ public class SplashActivity extends AppCompatActivity {
 
     //跳转到主页面，并把当前页面关闭掉
     private void startMainActivity() {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this,MainActivity.class);
         startActivity(intent);
         finish();
     }
